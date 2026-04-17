@@ -1,62 +1,86 @@
-<!DOCTYPE html>
-<html la"id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Lisbet Simatupang</title>
 
-    <link rel="stylesheet" href="styli.css">
-</head>
-<body>
+* {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #454343;
+  margin: 30px auto;
+  padding: 0 16px;
+  max-width: 800px;
+}
 
-    <div>
-        <h1>Profil Mahasiswa</h1>
-        <hr>
-        
-        <img src="WhatsApp Image 2025-12-08 at 13.42.11_febb730e.jpg" alt="Foto Lisbet Simatupang" width="150">
+h1 {color: rgb(141, 57, 110);
+  font-size: 28px;
+  margin-bottom: 10px;
+}
 
-        <h2>Data Diri</h2>
-        <p>Halo! Nama saya adalah <strong>Lisbet Simatupang</strong>. Saya adalah mahasiswa program studi <strong>Bisnis Digital</strong> di Universitas Negeri Medan.</p>
+h2 {color: rgb(254, 202, 202);
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Kategori</th>
-                    <th>Informasi</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>NIM</td>
-                    <td>7243550018</td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td>lisbetsimatupang2610@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Telepon</td>
-                    <td>081237702688</td>
-                </tr>
-                <tr>
-                    <td>IPK</td>
-                    <td>3,64 / 4,00</td>
-                </tr>
-            </tbody>
-        </table>
+p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
 
-        <h2>Profil Singkat</h2>
-        <p>Saya adalah seorang mahasiswa semester 4 yang disiplin, teliti, dan memiliki landasan kuat dalam konsep manajemen modern serta strategi pengembangan di era digital.</p>
+ul, ol {
+  font-size: 15px;
+  line-height: 2;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-        <h2>Keahlian & Kemampuan</h2>
-        <ul>
-            <li>Mahir mengoperasikan Microsoft Word dan Excel untuk pengolahan data.</li>
-            <li>Kreatif menggunakan Canva untuk komunikasi visual dan pembuatan konten.</li>
-            <li>Mampu berkomunikasi dengan baik secara lisan maupun tulisan.</li>
-            <li>Memiliki kemampuan analisis kuat terhadap tren era digital.</li>
-            <li>Mampu bekerja secara mandiri maupun berkolaborasi dalam tim.</li>
-        </ul>
-    </div>
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333;
+}
 
-</body>
-</html>
+th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #555;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+div {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+hr {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+    border: 4px solid rgb(5, 46, 117);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
