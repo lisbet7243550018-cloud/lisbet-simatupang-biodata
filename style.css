@@ -33,16 +33,6 @@ ul, ol {
   margin-bottom: 10px;
 }
 
-img {
-  border: 3px solid #1d4ed8;
-  border-radius: 8px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-}
-
 table {
   border-collapse: collapse;
   width: 100%;
